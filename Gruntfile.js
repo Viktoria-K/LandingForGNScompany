@@ -4,13 +4,13 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          './dist/public/application/css/app.css': [ // в эту папку получиться скомпелированный и сконкатенированный css файл готовый для продакшена
-            'src/sass/main.scss', //из этого файла
-            'src/sass/themes.scss', // и этого
-            'src/sass/header.scss', // и этого
-            'src/sass/main-content.scss', // и этого
-            'src/sass/slider-and-video-sections.scss',// и этого
-            'src/sass/media-query.scss' // и этого
+          './dist/public/application/css/app.css': [ 
+            'src/sass/main.scss',
+            'src/sass/themes.scss', 
+            'src/sass/header.scss',
+            'src/sass/main-content.scss',
+            'src/sass/slider-and-video-sections.scss',
+            'src/sass/media-query.scss'
           ]
         }
       }
@@ -100,7 +100,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  //grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Default task(s).
   grunt.registerTask('default', ['clean:all', 'sass', 'copy', 'browserify']);
