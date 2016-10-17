@@ -103,5 +103,5 @@ module.exports = function(grunt) {
   //grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean:all', 'sass', 'copy', 'browserify', 'watch']);
+  grunt.registerTask('default', ['clean:all', 'sass', 'copy', 'browserify']);
 };
