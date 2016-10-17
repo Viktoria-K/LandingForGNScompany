@@ -1,0 +1,28 @@
+{
+  "name": "application",
+  "version": "0.1.0",
+  "description": "Web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha || true",
+    "build": "grunt",
+    "watch": "grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:viktoria6111/testforgncompany.git"
+  },
+  "author": "Viktoria Kozachenko <viktoria6111@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/viktoria6111/app#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  }
+}

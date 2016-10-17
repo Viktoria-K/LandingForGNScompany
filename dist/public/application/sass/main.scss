@@ -1,0 +1,13 @@
+@import "themes";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+}
+
+@import "header";
+@import "main-content";
+@import "slider-and-video-sections";
+@import "media-query";

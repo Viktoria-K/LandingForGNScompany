@@ -1,0 +1,73 @@
+header{
+  background: url('../img/header-bg.jpg') center no-repeat;
+  height: 698px;
+  position: relative;
+
+  div{
+    width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+
+    h1{
+      font-size: $main-header-font-size;
+      color: $white-color;
+      text-transform: capitalize;
+      padding-top: 83px;
+      font-family: "Helvetica Neue Bold";
+    }
+    .header-bottom{
+      height: 90px;
+      position: absolute;
+      bottom: 25px;
+      font-size: 18px;
+      color: $white-color;
+      font-weight: normal;
+      font-family: "Helvetica Neue Regular";
+
+      .date-views-element{
+        height: auto;
+        font-size: 12px;
+        color: $white-color;
+        font-weight: normal;
+        display: flex;
+        margin: 10px 0 0 0;
+
+        .views-icon{
+          background: url("../img/icons.png") no-repeat 0 -213px;
+          width: 30px;
+          font-family: "Helvetica Neue Light";
+        }
+        .views{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .social-links{
+    position: absolute;
+    right: 0;
+    bottom: 27px;
+    width: 135px;
+    height: 48px;
+    background: $red-color;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+
+    .fb-link{
+      width: 40px;
+      height: 40px;
+      margin-top: 3px;
+      background-image: url("../img/icons.png");
+
+    }
+    .tweet-link{
+      @extend .fb-link;
+      background-position: 0 -40px;
+    }
+    .google-link{
+      @extend .fb-link;
+      background-position: 0 -80px;
+    }
+  }
+}

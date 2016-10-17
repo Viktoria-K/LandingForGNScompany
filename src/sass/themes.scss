@@ -1,0 +1,45 @@
+/*PT Serif*/
+@font-face {
+  font-family: "PT Serif Italic";
+  src: url('../fonts/PTSerif/PTSerifItalic/PTSerifItalic.ttf');
+}
+@font-face {
+  font-family: "PT Serif Bold";
+  src: url('../fonts/PTSerif/PTSerifBold/PTSerifBold.ttf');
+}
+@font-face {
+  font-family: "PT Serif Bold Italic";
+  src: url('../fonts/PTSerif/PTSerifBoldItalic/PTSerifBoldItalic.ttf');
+}
+@font-face {
+  font-family: "PT Serif Regular";
+  src: url('../fonts/PTSerif/PTSerifRegular/PTSerifRegular.ttf');
+}
+
+/*Helvetica Neue*/
+@font-face {
+  font-family: "Helvetica Neue Regular";
+  src: url('../fonts/HelveticaNeue/HelveticaNeue.ttf');
+}
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url('../fonts/HelveticaNeue/HelveticaNeueBold.ttf');
+}
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url('../fonts/HelveticaNeue/HelveticaNeueLight.ttf');
+}
+
+
+$white-color: #ffffff;
+$red-color: #af1b15;
+$text-color: #383838;
+$black-color: #000000;
+
+$paragraph-font-size: 20px;
+$header-font-size: 30px;
+$main-header-font-size: 48px;
+
+$max-width-content-section: 1160px;
+$max-width-content-article: 915px;
+$max-width-text-block: 715px;
